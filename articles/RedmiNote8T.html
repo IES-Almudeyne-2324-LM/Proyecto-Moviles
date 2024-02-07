@@ -11,12 +11,12 @@
     <meta name="robots" content="all">
     <link rel="icon" href="../icons/XIAOMI_LOGO.ico" type="image/png" sizes="18x18">
     <title>XIAOMI REDMI NOTE 8T</title>
-    
+
     <style>
         .centered {
-         display: flex;
-         justify-content: center;
-         align-items: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
 
         }
     </style>
@@ -25,31 +25,42 @@
 <body>
     <!-- Div con la imagen de la página web -->
     <div class="centered">
-        <img src="../images/InfoMovil_Nuevo.png" alt="InfoMovil logo" width="400">
+        <a href="../index.html"><img src="../images/InfoMovil_Nuevo.png" alt="InfoMovil logo" width="400"></a>
     </div>
     <!-- Div con texto del teléfono al que se hace referencia -->
     <div>
         <h1 style="text-align: center;">Xiaomi Redmi Note 8T</h1>
         <h2 style="text-align: center;">El mejor calidad-precio del mercado</h2>
     </div>
-    <!-- Div con la imagen del telefono al que se hace referencia -->
+    <!-- Div con la imagen del telefono al que se hace referencia con web responsive -->
     <div class="centered">
-        <img src="../images/RedmiNote8T.jpg" alt="Imagen RedmiNote8T" height="400" width="300">
+        <a href="../index.html#redmi">
+            <img src="../images/RedmiNote8T800px.jpg" alt="Imagen Redmi Note 8T" width="300" height="400" />
+            <!-- Intento de web responsive
+            <figure>
+                <picture style="display:flex;justify-content: center;">
+                    <source media="(max-width: 799px)" srcset="images/RedmiNote8T400px.jpg">
+                    <source media="(min-width: 800px)" srcset="images/RedmiNote8T800px.jpg">
+                    <img src="../images/RedmiNote8T800px.jpg" alt="Imagen Redmi Note 8T" />
+                </picture>
+            </figure>
+             -->
+        </a>
     </div>
     <p style="text-align: center;"><small>Imagen del teléfono</small></p><br />
-    
+
     <!-- Video con AutoPlay del teléfono -->
     <div class="centered">
         <video autoplay muted width="400" controls>
 
             <source src="../videos/XIAOMI_8T.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
-    
+
             <source src="../videos/XIAOMI_8T.ogg" type='video/ogg; codecs="theora, vorbis"'>
-    
+
             <source src="../videos/XIAOMI_8T.WebM" type='video/webm; codecs="vp8, vorbis"' />
-    
+
             No se puede mostrar el vídeo en este navegador
-    
+
         </video>
     </div>
     <!-- Descripción del teléfono -->
@@ -71,22 +82,26 @@
     </ul>
     <!-- Div para el Vídeo de Youtube -->
     <div class="centered">
-        <iframe width="901" height="503" src="https://www.youtube.com/embed/lXZr-BcwRyg" title="Redmi Note 8: Unboxing" 
-        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+        <iframe width="901" height="503" src="https://www.youtube.com/embed/lXZr-BcwRyg" title="Redmi Note 8: Unboxing"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
         </iframe>
     </div>
     <!-- Div para el Audio -->
     <div class="centered" style="height: 100px;">
         <audio autoplay controls>
-    
+
             <source src="../sounds/XiaomiAudio.ogg" type="audio/ogg">
-    
+
             <source src="../sounds/XiaomiAudio.mp3" type="audio/mp3">
-    
+
             No se puede reproducir el archivo de audio
-    
+
         </audio>
     </div>
+    <a href="../index.html#redmi"><img src="../icons/back.png" alt="Volver" width="50"
+            style="display: block; margin: auto;"></a>
 </body>
 
 </html>

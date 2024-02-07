@@ -23,9 +23,13 @@
 
 <body>
     <!-- Div con la imagen de la página web -->
-    <div class="centered">
-        <a href="../index.html"><img src="../images/InfoMovil_Nuevo.png" alt="InfoMovil logo" width="400"></a>
-    </div>
+    <figure style="text-align:center;">
+        <picture>
+            <source media="(max-width: 799px)" srcset="../images/InfoMovil_Nuevo400.png">
+            <source media="(min-width: 800px)" srcset="../images/InfoMovil_Nuevo800.png">
+            <img src="../images/InfoMovil_Nuevo800.png" alt="InfoMovil logo">
+        </picture>
+    </figure>
     <!-- Div con texto del teléfono al que se hace referencia -->
     <div>
         <h1 style="text-align: center;">Xiaomi Redmi Note 8T</h1>

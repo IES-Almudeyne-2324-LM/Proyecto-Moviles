@@ -14,25 +14,38 @@
 </head>
 
 <body>
-    <img src="../images/InfoMovil_Nuevo.png" alt="InfoMovil logo" width="400">
+    <figure style="text-align:center;">
+        <picture>
+            <source media="(max-width: 799px)" srcset="../images/InfoMovil_Nuevo400.png">
+            <source media="(min-width: 800px)" srcset="../images/InfoMovil_Nuevo800.png">
+            <img src="../images/InfoMovil_Nuevo800.png" alt="InfoMovil logo">
+        </picture>
+    </figure>
     <h1 style="text-align: center;">POCO M6 Pro</h1>
     <h2 style="text-align: center;">El nuevo buque insignia de la gama media</h2>
-    <img src="../images/POCO.jpeg" alt="Imagen POCO M6 PRO" width="400">
+    <figure style="text-align:center;">
+        <picture>
+            <source media="(max-width: 799px)" srcset="../images/POCO_400.jpg">
+            <source media="(min-width: 800px)" srcset="../images/POCO_800.jpg">
+            <img src="../images/POCO_800.jpg" alt="InfoMovil logo">
+        </picture>
+        <figcaption>Imagen del teléfono en los diferentes colores disponibles</figcaption>
+    </figure>
+    <div style="text-align:center">
+        <video autoplay muted width="600" controls>
 
-    <p style="text-align: center;"><small>Imagen del teléfono en los diferentes colores disponibles</small></p><br />
+            <source src="../videos/POCO_M6.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
 
-    <video autoplay muted width="400" controls>
+            <source src="../videos/POCO_M6.ogg" type='video/ogg; codecs="theora, vorbis"'>
 
-        <source src="../videos/POCO_M6.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+            <source src="../videos/POCO_M6.WebM" type='video/webm; codecs="vp8, vorbis"' />
 
-        <source src="../videos/POCO_M6.ogg" type='video/ogg; codecs="theora, vorbis"'>
+            No se puede mostrar el vídeo en este navegador
 
-        <source src="../videos/POCO_M6.WebM" type='video/webm; codecs="vp8, vorbis"' />
-
-        No se puede mostrar el vídeo en este navegador
-
-    </video>
-    <p>El <b>POCO M6 Pro</b> es un smartphone de la compañía POCO, hermana de Xiaomi. Es el más barato de la nueva serie
+        </video>
+    </div>
+    <p style="text-align:center">El <b>POCO M6 Pro</b> es un smartphone de la compañía POCO, hermana de Xiaomi. Es el
+        más barato de la nueva serie
         de smartphones de POCO y es el primero en montar el procesador SoC Helio G99-Ultra de MediaTek.
         Aquí te dejo un resumen de sus características principales:<br>
         <b>-Dimensiones y peso</b>: 161,1 x 74,95 x 7,98 mm, 170 gramos.<br>
@@ -50,12 +63,13 @@
         euros y 12/512 GB por <i>259,99</i> euros. Este smartphone es un firme candidato a convertirse en uno de los
         móviles a recomendar por entre <i>200</i> y <i>250</i> euros.
     </p>
-    <iframe width="901" height="507" src="https://www.youtube.com/embed/Vxf8Cvzq_rQ"
-        title="HARDWARE TOP a BAJO PRECIO!!! POCO M6 Pro REVIEW" frameborder="0"
+    <iframe style="display: block; margin: auto;" width="901" height="507"
+        src="https://www.youtube.com/embed/Vxf8Cvzq_rQ" title="HARDWARE TOP a BAJO PRECIO!!! POCO M6 Pro REVIEW"
+        frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen></iframe><br>
-    <a href="../index.html#poco"><img src="../icons/back.png" alt="Volver" width="70"
-        style="display: block; margin: auto;"></a>
+    <a href="../index.html#poco"><img src="../icons/back.png" alt="Volver" width="50"
+            style="display: block; margin: auto;"></a>
 </body>
 
 </html>

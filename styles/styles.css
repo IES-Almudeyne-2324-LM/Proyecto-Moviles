@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Cambia la dirección del flex a columna */
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border: 2px solid #4ecc1c;
+}
+
+
+main {
+    width: 100%; /* Puedes ajustar el ancho según tus preferencias */
+    max-width: 1075px; /* Para limitar el ancho máximo */
+    background-color: #f2f2f2; /* Color de fondo opcional */
+    padding: 20px; /* Espacio interno opcional */
+    border-radius: 10px; /* Bordes redondeados opcional */
+    border: 2px solid #442bb1;
+}
+
+section {
+    margin-bottom: 20px; /* Espacio entre secciones opcional */
+}
+
+header {
+    width: 100%; /* Ancho del 100% del contenedor padre (en este caso, el body) */
+    height: 180px; /* Altura de 80 píxeles */
+    background-color: #ffffff; /* Color de fondo del encabezado */
+   /* position: fixed; /* Posicionamiento fijo para mantenerlo en la parte superior */
+    top: 0; /* Lo fija en la parte superior de la ventana del navegador */
+    z-index: 1000; /* Ajusta el índice Z para asegurarte de que esté encima de otros elementos */
+    border: 2px solid #d40808;
+
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    border: 2px solid brown;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: flex-start; /* Alinea los elementos al final (derecha) */
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    flex-direction: row; /* Establece la dirección del flex a fila (de izquierda a derecha) */
+}

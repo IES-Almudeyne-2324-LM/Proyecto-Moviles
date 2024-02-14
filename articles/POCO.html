@@ -11,6 +11,28 @@
     <meta name="robots" content="all">
     <link rel="icon" href="../icons/POCO_LOGO.png" type="image/png" sizes="18x18">
     <title>POCO M6 PRO</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+<!--Estilos tabla-->
+    <style>
+        table {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -18,11 +40,18 @@
         <!-- Imagen de la página Web con Web Responsive-->
         <figure style="text-align:center;">
             <picture>
-                <source media="(max-width: 799px)" srcset="../buttons/InfoMovil_Nuevo400.png">
+                <source media="(max-width: 799px)" srcset="../images/InfoMovil_Nuevo400.png">
                 <source media="(min-width: 800px)" srcset="../images/InfoMovil_Nuevo800.png">
                 <img src="../images/InfoMovil_Nuevo800.png" alt="InfoMovil logo">
             </picture>
         </figure>
+        <nav>
+            <!-- Botones para la Navegación -->
+            <a href="../index.html">Inicio</a>
+            <a href="#">Realme</a>
+            <a href="#">Xiaomi</a>
+            <a href="#">Apple</a>
+        </nav>
     </header>
     <main>
         <article>
@@ -70,25 +99,6 @@
                 </p>
             </div>
 
-            <style>
-                table {
-                    width: 80%;
-                    margin-left: auto;
-                    margin-right: auto;
-                    border-collapse: collapse;
-                }
-
-                th,
-                td {
-                    border: 1px solid black;
-                    padding: 8px;
-                    text-align: left;
-                }
-
-                th {
-                    background-color: #f2f2f2;
-                }
-            </style>
             <table>
                 <tr>
                     <th>Característica</th>
@@ -152,13 +162,12 @@
                     style="display: block; margin: auto;"></a>
         </article>
     </main>
-    <footer style="text-align: center;">
-        <hr style="border-color:black; width:100%;">
-        <div>
-            Alumno1: Miguel Cantalejo Martinez
-            Alumno2: Miguel Caballero Vidal
-            Alumno3: Carlos Cabello Caballero
-            Asignatura: Lenguajes de marcas
+    <footer>
+        <div class="div-footer">
+            Alumno1: Miguel Cantalejo Martinez |
+            Alumno2: Miguel Caballero Vidal |
+            Alumno3: Carlos Cabello Caballero |
+            Asignatura: Lenguajes de marcas |
             Curso: 2023-2024
         </div>
     </footer>

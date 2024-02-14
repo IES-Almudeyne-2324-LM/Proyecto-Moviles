@@ -78,4 +78,12 @@ footer {
 
 .Xiaomi{
     background-color: #e9eaea;
+    border-radius: 10px;
+}
+
+.Apple{
+    background-color: #636363;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: white;
 }

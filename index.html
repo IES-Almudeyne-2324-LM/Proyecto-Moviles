@@ -10,7 +10,7 @@
         content="Móvil, InfoMovil, Telefonía, Novedades, Realme, Hardware, POCO, XIAOMI, Teléfonos, Smartphone, Tecnología, Celular">
     <meta name="robots" content="all">
     <link rel="icon" href="icons/Logo_Nuevo.png" type="image/png" sizes="18x18">
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="CSS/styles.css">
     <title>InfoMovil</title>
 </head>
 
@@ -30,11 +30,11 @@
         <h1 style="text-align: center; margin: 0; margin-bottom: 10px;">Lo nuevo de la actualidad de los Smartphone</h1>
         <!-- Nav -->
         <nav>
-                <!-- Botones para la Navegación -->
-                <a href="./index.html">Inicio</a>
-                <a href="#">Realme</a>
-                <a href="#">Xiaomi</a>
-                <a href="#">Apple</a>
+            <!-- Botones para la Navegación -->
+            <a href="./index.html">Inicio</a>
+            <a href="#Realme">Realme</a>
+            <a href="#Xiaomi">Xiaomi</a>
+            <a href="#Apple">Apple</a>
         </nav>
     </header>
     <!-- Main -->
@@ -44,17 +44,17 @@
             que han llegado al mercado. Desde dispositivos innovadores hasta las últimas tendencias en tecnología.</h3>
         <hr style="border-color:grey; width:75%;">
         <!-- Sección de la marca REALME -->
-        <section>
+        <section id="Realme">
             <article>
                 <h2 style="text-align: center;">REALME</h2>
                 <p>Los teléfonos Realme, apesar de haber sido uno de los últimos en
-                    introducirse a las tendencias en cuanto Smartphones, son conocidos 
+                    introducirse a las tendencias en cuanto Smartphones, son conocidos
                     por sus características de alta calidad a precios competitivos. Estos
-                    dispositivos se centran mayoritariamente en un hardware potente y su 
-                     memoria. Aparte de deslumbrar por estas funciones, tiene un
-                    diseño único que lo caracteriza. Algo a destacar introducido en los 
+                    dispositivos se centran mayoritariamente en un hardware potente y su
+                    memoria. Aparte de deslumbrar por estas funciones, tiene un
+                    diseño único que lo caracteriza. Algo a destacar introducido en los
                     últimos modelos son las baterías de grandes
-                    amperajes y carga rápida. Es un modelo de Smartphone que en lo que se 
+                    amperajes y carga rápida. Es un modelo de Smartphone que en lo que se
                     refiere a la cámara no es totalmente
                     competitivo apesar de los avances en los últimos dispositivos.</p>
                 <a href="./articles/REALME.html" style="text-decoration: none; color: black;" id="realme">
@@ -69,36 +69,70 @@
             </article>
         </section>
         <!-- Sección de la marca XIAOMI-->
-        <section>
+        <section id="Xiaomi" class="Xiaomi">
+            <h2 style="text-align: center;">XIAOMI</h2>
+            <p style="text-align: center;">Xiaomi es una empresa china de tecnología conocida por ofrecer productos
+                electrónicos
+                asequibles y de calidad.
+                Fundada en 2010, se ha destacado especialmente en teléfonos inteligentes, pero también se ha
+                diversificado en
+                dispositivos para el hogar, audio, wearables y más. Su enfoque directo al consumidor y su filosofía
+                de
+                proporcionar tecnología a precios competitivos la han convertido en una marca popular a nivel
+                global.</p>
+
+            <article class="POCO">
+                <a href="./articles/POCO.html" style="text-decoration: none; color: black;" id="poco">
+                    <h3 style="text-align: center;">POCO X6 5G</h3>
+                </a>
+                <a href="./articles/POCO.html">
+                </a>
+                <p style="text-align: center;">Descubre el <b>POCO X6 5G</b>,el smartphone más avanzado de la serie
+                    POCO.
+                    <a href="./articles/POCO.html">Ver más</a>
+            </article>
             <article>
-                <h2 style="text-align: center;">XIAOMI</h2>
-                <p style="text-align: center;">Xiaomi es una empresa china de tecnología conocida por ofrecer productos
-                    electrónicos
-                    asequibles y de calidad.
-                    Fundada en 2010, se ha destacado especialmente en teléfonos inteligentes, pero también se ha
-                    diversificado en
-                    dispositivos para el hogar, audio, wearables y más. Su enfoque directo al consumidor y su filosofía
-                    de
-                    proporcionar tecnología a precios competitivos la han convertido en una marca popular a nivel
-                    global.</p>
+                <a href="./articles/XIAOMI_13_PRO.html" style="text-decoration: none; color: black;" id="poco">
+                    <h3 style="text-align: center;">XIAOMI 13 PRO</h3>
+                </a>
+                <a href="./articles/XIAOMI_13_PRO.html">
+
+                    <figure style="text-align:center;">
+                        <picture>
+                            <source media="(max-width: 799px)" srcset="./images/xiaomi_13_pro400.jpeg">
+                            <source media="(min-width: 800px)" srcset="./images/xiaomi_13_pro700.jpeg">
+                            <img src="./images/xiaomi_13_pro700.jpeg" alt="InfoMovil logo"
+                                style="width: 600px; height: auto;">
+                        </picture>
+                    </figure>
+                </a>
+                <p style="text-align: center;">Descubre el <b>XIAOMI 13 PRO</b>, el último hito en la serie de
+                    smartphones
+                    de Xiaomi. <a href="./articles/XIAOMI_13_PRO.html">Ver más</a>
+            </article>
+
+            <article class="POCO">
                 <a href="./articles/POCO.html" style="text-decoration: none; color: black;" id="poco">
                     <h3 style="text-align: center;">POCO M6 PRO</h3>
                 </a>
                 <a href="./articles/POCO.html">
 
+
+                    <figure style="text-align:center;">
+                        <picture>
+                            <source media="(max-width: 799px)" srcset="./images/POCO_400.jpg">
+                            <source media="(min-width: 800px)" srcset="./images/POCO_800.jpg">
+                            <img src="./images/POCO_800.jpg" alt="InfoMovil logo" style="width: 600px; height: auto;">
+                        </picture>
+                    </figure>
                 </a>
-                <p style="text-align: center;">Descubre el <b>POCO M6 Pro</b>, el último hito en la serie de smartphones
-                    de POCO, la
-                    marca hermana de Xiaomi. en esta página te contamos todo lo que necesitas saber sobre este increíble
-                    dispositivo, que combina un diseño elegante, una pantalla espectacular, un rendimiento sobresaliente
-                    y una
-                    cámara de alta calidad. No te pierdas nuestro análisis detallado. <a href="./articles/POCO.html">Ver
-                        más</a>
-                    <hr style="border-color:grey; width:75%;">
+                <p style="text-align: center;">Descubre el <b>POCO M6 Pro</b>, el último hito en la serie de
+                    smartphones
+                    de POCO. <a href="./articles/POCO.html">Ver más</a>
             </article>
         </section>
         <!-- Sección de la marca APPLE -->
-        <section>
+        <section id="Apple">
             <article>
                 <h2 style="text-align: center;">REDMI NOTE 8T</h2>
                 <p style="text-align: center;">El Xiaomi Redmi Note 8T es un smartphone con la tecnología puntera y un
@@ -129,10 +163,11 @@
         <div class="div-footer">
             Alumno1: Miguel Cantalejo Martinez |
             Alumno2: Miguel Caballero Vidal |
-            Alumno3: Carlos Cabello Caballero |
-            Asignatura: Lenguajes de marcas |
+            Alumno3: Carlos Cabello Caballero<br>
+            Asignatura: Lenguajes de marcas<br>
             Curso: 2023-2024
         </div>
     </footer>
 </body>
+
 </html>

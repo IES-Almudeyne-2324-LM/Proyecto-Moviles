@@ -79,6 +79,7 @@ footer {
 .Xiaomi{
     background-color: #e9eaea;
     border-radius: 10px;
+    margin-top: 20px;
 }
 
 .Apple{
@@ -86,4 +87,11 @@ footer {
     margin-top: 20px;
     border-radius: 10px;
     color: white;
+}
+
+.Realme{
+    background-color: #636363;
+    border-radius: 10px;
+    color: white;
+    margin-top: 20px;
 }

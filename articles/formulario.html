@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página Web de sobre la actualidad de la Tecnología Móvil">
+    <meta name="author" content="Miguel Cantalejo, Miguel Caballero Vidal, Carlos Cabello Caballero">
+    <meta name="keywords"
+        content="Móvil, InfoMovil, Telefonía, Novedades, Realme, Hardware, POCO, XIAOMI, Teléfonos, Smartphone, Tecnología, Celular">
+    <meta name="robots" content="all">
+    <link rel="icon" href="icons/Logo_Nuevo.png" type="image/png" sizes="18x18">
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <header>
+        <!-- Imagen de la página Web con Web Responsive-->
+        <figure style="text-align:center;">
+            <picture>
+                <source media="(max-width: 799px)" srcset="../images/InfoMovil_Nuevo400.png">
+                <source media="(min-width: 800px)" srcset="../images/InfoMovil_Nuevo800.png">
+                <img src="../images/InfoMovil_Nuevo800.png" alt="InfoMovil logo" style="width: 300px; height: auto;">
+            </picture>
+        </figure>
+        <nav>
+            <!-- Botones para la Navegación -->
+            <a href="../index.html">Inicio</a>
+            <a href="../index.html#Realme">Realme</a>
+            <a href="../index.html#Xiaomi">Xiaomi</a>
+            <a href="../index.html#Apple">Apple</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Formulario de Contacto</h1>
+            <small>Los campos marcados con * son obligatorios.</small><br><br>
+            <form name="Formulario moviles" action="mcabvid537@iesalmudeyne.es" method="POST" target="_blanck" enctype="text/plain">
+                <label for="nombre">Nombre: *</label><br>
+                <input type="text" id="nombre" name="nombre" required><br>
+                <label for="email">Email: *</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="teléfono">Teléfono:</label><br>
+                <input type="tel" id="teléfono" name="teléfono"><br>
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea><br>
+                <label for="marca">Marca de interés:</label><br>
+                <select id="marca" name="marca">
+                    <option value="Xiaomi">Xiaomi</option>
+                    <option value="iPhone">iPhone</option>
+                    <option value="Realme">Realme</option>
+                </select><br><br>
+                <!--el botón se tiene que mover al final-->
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="div-footer">
+            Alumno1: Miguel Cantalejo Martinez |
+            Alumno2: Miguel Caballero Vidal |
+            Alumno3: Carlos Cabello Caballero<br>
+            Asignatura: Lenguajes de marcas<br>
+            Curso: 2023-2024
+        </div>
+    </footer>
+</body>

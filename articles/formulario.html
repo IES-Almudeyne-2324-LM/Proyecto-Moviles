@@ -34,25 +34,37 @@
     </header>
     <main>
         <section>
-            <h1>Formulario de Contacto</h1>
-            <small>Los campos marcados con * son obligatorios.</small><br><br>
-            <form name="Formulario moviles" action="mailto:mcabvid537@iesalmudeyne.es" method="POST" target="blanck" enctype="text/plain">
-                <label for="nombre">Nombre: *</label><br>
-                <input type="text" id="nombre" name="nombre" required><br>
-                <label for="email">Email: *</label><br>
-                <input type="email" id="email" name="email" required><br>
-                <label for="teléfono">Teléfono:</label><br>
-                <input type="tel" id="teléfono" name="teléfono"><br>
-                <label for="mensaje">Mensaje:</label><br>
-                <textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea><br>
-                <label for="marca">Marca de interés:</label><br>
-                <select id="marca" name="marca">
-                    <option value="Xiaomi">Xiaomi</option>
-                    <option value="iPhone">iPhone</option>
-                    <option value="Realme">Realme</option>
-                </select><br><br>
-                <!--el botón se tiene que mover al final-->
-                <input type="submit" value="Enviar">
+            <div class="sectionFormulario">
+                <div class="divFormulario">
+                    <h1>Formulario de Contacto</h1>
+                    <small>Los campos marcados con * son obligatorios.</small><br><br>
+                    <form name="Formulario moviles" action="mailto:mcabvid537@iesalmudeyne.es" method="POST"
+                        target="blanck" enctype="text/plain">
+                        <label for="nombre">Nombre: *</label><br>
+                        <input type="text" id="nombre" name="nombre" required><br>
+                        <label for="email">Email: *</label><br>
+                        <input type="email" id="email" name="email" required><br>
+                        <label for="teléfono">Teléfono:</label><br>
+                        <input type="tel" id="teléfono" name="teléfono"><br>
+                        <label for="mensaje">Mensaje:</label><br>
+                        <textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea><br>
+                        <label for="marca">Marca de interés:</label><br>
+                        <select id="marca" name="marca">
+                            <option value="Xiaomi">Xiaomi</option>
+                            <option value="iPhone">iPhone</option>
+                            <option value="Realme">Realme</option>
+                        </select><br><br>
+                </div>
+
+                <div>
+                    <!--Rellenar-->
+                </div>
+                <div>
+                    <!--Rellenar-->
+                </div>
+            </div>
+            <!--el botón se tiene que mover al final-->
+            <input type="submit" value="Enviar" class="botonFormulario">
             </form>
         </section>
     </main>

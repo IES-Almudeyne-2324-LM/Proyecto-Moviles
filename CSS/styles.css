@@ -113,3 +113,17 @@ td {
 th {
     background-color: #f2f2f2;
 }
+
+.sectionFormulario {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.divFormulario {
+    margin-right: 120px;
+}
+
+.botonFormulario {
+    margin: 10px;
+}

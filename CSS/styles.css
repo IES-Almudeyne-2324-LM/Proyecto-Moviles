@@ -127,3 +127,49 @@ th {
 .botonFormulario {
     margin: 10px;
 }
+
+.colorHrNegro {
+    border-color: black; width: 80%;
+}
+
+.colorHrGris {
+    border-color: grey; width: 75%;
+}
+
+.centrar {
+    text-align: center;
+}
+
+.estiloImg {
+    width: 300px; height: auto;
+}
+
+.estiloTitulo {
+    text-align: center; margin: 0; margin-bottom: 10px;
+}
+
+.div-section {
+    padding: 10px;
+}
+
+.tituloNoticia {
+    text-decoration: none; color: white;
+}
+
+.tituloNoticiaNegro { 
+    text-decoration: none; color: black;
+}
+
+.estiloPictureNoticia {
+    width: 600px; height: auto;
+}
+
+.estiloVerMas {
+    color: white;
+}
+
+.estiloVerMasGrey {
+    color: grey;
+}
+
+

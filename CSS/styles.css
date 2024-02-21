@@ -122,6 +122,9 @@ th {
 
 .divFormulario {
     margin-right: 120px;
+    border: 2px solid grey;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .botonFormulario {
@@ -188,4 +191,8 @@ th {
     border: 1px solid rgb(0, 0, 0);
     border-radius: 10px;
     background-color: #cecece;
+}
+
+.sinJustificar {
+    text-align: start;
 }
